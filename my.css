@@ -1,0 +1,350 @@
+:root {
+    --main-red: #821b12;
+    --main-gold: #D1B464;
+    --main-gray: #151515;
+}
+
+.color-gold {
+    color: var(--main-gold);
+}
+
+@font-face {
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/lora/v35/0QIhMX1D_JOuMw_LIftL.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+    color: var(--main-red);
+    font-family:Lora, serif;
+    font-weight: 600;
+    background: url("https://shrt-spam.github.io/missmarry/img/black_bg.png");
+}
+
+a, a:hover {
+    color: var(--main-gold);
+}
+
+.text-red {
+    color: #AA0000;
+}
+
+.section {
+    margin-bottom: 36px;
+    background-color: var(--main-gray);
+    border: 3px solid var(--main-red);
+}
+
+.section-content {
+    padding: 15px;
+}
+
+.section h2 {
+    background: var(--main-red);
+    padding: 15px;
+}
+
+.section h2 span {
+    color: var(--main-gold);
+    background: rgb(195, 139, 74);
+    background: linear-gradient(0deg, rgba(213, 136, 49, 1) 0%, rgba(236, 225, 110, 1) 17%, rgba(229, 170, 52, 1) 34%, rgba(176, 116, 40, 1) 55%, rgba(236, 225, 110, 1) 79%, rgba(229, 170, 52, 1) 98%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.gold-nav {
+    color: black;
+    margin-bottom: 36px;
+
+    color: var(--main-gold);
+}
+
+.golden-gradient,
+.gold-nav {
+    background: rgb(195, 139, 74);
+    background: linear-gradient(0deg, rgba(213, 136, 49, 1) 0%, rgba(236, 225, 110, 1) 17%, rgba(229, 170, 52, 1) 34%, rgba(176, 116, 40, 1) 55%, rgba(236, 225, 110, 1) 79%, rgba(229, 170, 52, 1) 98%);
+}
+
+#blurb_container {
+    display: block !important;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 100%;
+    height: 10px;
+    position: absolute;
+    bottom: 0;
+    background: rgb(195, 139, 74);
+    background: linear-gradient(0deg, rgba(213, 136, 49, 1) 0%, rgba(236, 225, 110, 1) 17%, rgba(229, 170, 52, 1) 34%, rgba(176, 116, 40, 1) 55%, rgba(236, 225, 110, 1) 79%, rgba(229, 170, 52, 1) 98%);
+}
+
+#blurb_label,
+#blurb_value {
+    display: none;
+}
+
+.header-border {
+    height: 15px;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.nav-item {
+    border: 1px solid;
+    background-color: #ffffff2e;
+    margin: 2px;
+    border-style: solid;
+
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-link {
+    color: var(--main-red);
+    font-weight: 600;
+}
+
+.intro {
+    max-height: 250px;
+    margin: 0;
+    padding: 10px 0;
+    background: url('https://shrt-spam.github.io/missmarry/img/leather.png') left top;
+    background-repeat: repeat-x repeat-y;
+}
+
+.gift-links {
+    color: var(--main-gold);
+    text-align: center;
+    border: 0;
+}
+
+.gift-links img.icon {
+    width: 24px;
+    height: 24px;
+}
+
+.gift-links a:hover img.icon.nonhover {
+    display: none;
+}
+.gift-links a img.icon.hover {
+    display: none;
+}
+.gift-links a:hover img.icon.hover {
+    display: inline;
+}
+
+.gift-links .btn {
+    color: var(--main-red);
+    border-color: var(--main-red);
+    font-weight: 600;
+    height: 100%;
+    border-radius: 0;
+}
+.gift-links .btn:hover {
+    color: var(--main-gold);
+    border-color: var(--main-gold);
+    background-color: var(--main-red);
+}
+#photo_galleries,
+.photo_gallery,
+#profile_comments,
+#profile_header {
+    display: block!important;
+}
+
+#profile_header_container {
+    padding: 0;
+    margin: 0;
+    height: 15vw;
+    max-height: 150px;
+    background: url('https://shrt-spam.github.io/missmarry/img/header-bg.png') center top fixed;
+    background-repeat: repeat-x;
+    background-color: black;
+}
+
+#profile_header_container .heading,
+#profile_header_container #status_container,
+#profile_header_container #blurb_container,
+#profile_header_container #unix_last_updated_container,
+#profile_header_container #unix_last_broadcast_container,
+#profile_header #avatar_holder {
+    display: none;
+}
+
+.photo_gallery,
+#profile_comments,
+#profile_friends {
+    margin-bottom: 36px;
+    border: 3px solid var(--main-red);
+    background-color: var(--main-gray);
+    padding: 0px !important;
+}
+.photo_gallery .images {
+    padding: 15px;
+}
+
+.photo_gallery .heading,
+#profile_comments .heading {
+    background: var(--main-red);
+    color: var(--main-gold);
+    font-weight: bold;
+    padding: 15px;
+    font-size: 2rem;
+}
+
+
+@media (min-width: 992px) {
+    #photo_galleries,
+    #profile_comments,
+    #profile_friends {
+        max-width: 960px;
+    }
+}
+
+/* @media (min-width: 768px) {
+    #photo_galleries,
+    #profile_comments {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 576px) {
+    #photo_galleries,
+    #profile_comments {
+        max-width: 540px;
+    }
+} */
+
+#photo_galleries,
+#profile_comments,
+#profile_friends {
+    display: block!important;
+    width: 100%!important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#average_rating_container,
+#rate_container,
+#admirers_container,
+#friends_container,
+#favorite_models_container {
+    margin: 0;
+}
+
+#profile_friends {
+    margin-bottom: 36px;
+}
+
+#profile_friends .heading {
+    display: none;
+}
+
+.wall_post {
+    background-color: var(--main-gray);
+    padding-bottom: 0;
+    padding: 10px;
+}
+
+#new_comment {
+    display: block;
+    background-color: var(--main-gray);
+    padding: 10px;
+}
+
+#profile_photo_gallery_3 .heading::target-text {
+    content: "<span>asdasd</span>";
+}
+
+
+#profile_header_container #status_container {
+    display: block;
+}
+
+#profile_header_container #member_status_value {
+    display: block !important;
+    text-align: right;
+    padding: 5px 10px;
+    font-size: 1.4rem;
+    color: var(--main-gold);
+    border: 2px solid var(--main-gold);
+    position: absolute;
+    bottom: 12px;
+    background-color: black;
+}
+
+#profile_header_container #member_status_value a,
+#profile_header_container #member_status_value a:hover {
+    color: var(--main-gold) !important;
+}
+
+#status_value {
+    font-size: 0!important;
+}
+#profile_header_container #status_container #status_label,
+#member_type_value,
+#member_message_value {
+    display: none;
+}
+
+/* tipmenu */
+.tipmenu {
+    background-color: transparent;
+}
+.tipmenu .tipmenu_price {
+    width: 20%;
+    display: inline-block;
+    /* text-align: center; */
+}
+.tipmenu .tipmenu_price img {
+    width: 17px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.tipmenu .tipmenu-list li  {
+    margin: 15px 0;
+}
+.tipmenu .tipmenu-list li.highlight  {
+    font-size: 18px;
+    font-weight: bold;
+}
+.tipmenu .tipmenu-list li a {
+    border: 2px solid var(--main-gold);
+    color: var(--main-gold);
+    padding: 5px 10px;
+    padding-left: 0;
+}
+
+.tipmenu img.wheel,
+.tipmenu img.coins {
+    height: 70px;
+    margin-right: 10px;
+}
+.tipmenu .wheel-list-items li {
+    margin-left: 68px;
+    margin-bottom: 5px;
+}
+.tipmenu .wheel-list li:before {
+    content: "";
+    width: 17px;
+    height: 16px;
+    /* fontawesome star svg */
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIDYuNS4yIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlL2ZyZWUgQ29weXJpZ2h0IDIwMjQgRm9udGljb25zLCBJbmMuLS0+PHBhdGggZmlsbD0iI0QxQjQ2NCIgZD0iTTMxNi45IDE4QzMxMS42IDcgMzAwLjQgMCAyODguMSAwcy0yMy40IDctMjguOCAxOEwxOTUgMTUwLjMgNTEuNCAxNzEuNWMtMTIgMS44LTIyIDEwLjItMjUuNyAyMS43cy0uNyAyNC4yIDcuOSAzMi43TDEzNy44IDMyOSAxMTMuMiA0NzQuN2MtMiAxMiAzIDI0LjIgMTIuOSAzMS4zczIzIDggMzMuOCAyLjNsMTI4LjMtNjguNSAxMjguMyA2OC41YzEwLjggNS43IDIzLjkgNC45IDMzLjgtMi4zczE0LjktMTkuMyAxMi45LTMxLjNMNDM4LjUgMzI5IDU0Mi43IDIyNS45YzguNi04LjUgMTEuNy0yMS4yIDcuOS0zMi43cy0xMy43LTE5LjktMjUuNy0yMS43TDM4MS4yIDE1MC4zIDMxNi45IDE4eiIvPjwvc3ZnPg==");
+    background-size: cover;
+    display: inline-block;
+    margin: 0 5px;
+}
+.mfc_display_inline_mode .image-slider {
+    display: none;
+}
