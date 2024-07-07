@@ -1,0 +1,280 @@
+/* Bild von <a href="https://de.freepik.com/vektoren-kostenlos/aquarell-galaxie-hintergrund_23682337.htm#fromView=search&page=1&position=7&uuid=89ea11a5-2710-4481-b40a-973c2d76d30e">Freepik</a> */
+/* 
+Image by <a href="https://www.freepik.com/free-vector/watercolor-galaxy-background_23682337.htm">Freepik</a>
+*/
+body{
+  margin:0;
+}
+.cb-root {
+    /* margin-left: -14em;
+    margin-right: 0;
+    margin-top: -1000px; */
+
+  --default-font: Century Gothic,Tahoma,Geneva,sans-serif !important;
+  --font-face: url(https://fonts.gstatic.com/s/lora/v35/0QIhMX1D_JOuMw_LIftL.woff2) format('woff2');
+  --highlight-text-shadow: 2px 2px 2px #ff3b71, 2px 2px 11px #2196F3, -3px -3px 6px #E91E63;
+  --highlight-text-color: #fff;
+  --main-red: #821b12;
+  --main-gold: #D1B464;
+  --main-gray: #151515;
+  --golden-gradient: linear-gradient(0deg, rgba(213, 136, 49, 1) 0%, rgba(236, 225, 110, 1) 17%, rgba(229, 170, 52, 1) 34%, rgba(176, 116, 40, 1) 55%, rgba(236, 225, 110, 1) 79%, rgba(229, 170, 52, 1) 98%);
+
+  font-family: Georgia, serif;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.75rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0,0,0,.1);
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+a {
+  color: var(--main-gold);
+}
+
+.mr-5 {
+  margin-right: 3rem !important;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+.flex-grow-1 {
+  flex-grow: 1 !important;
+}
+
+.d-inline-flex {
+  display: inline-flex !important;
+}
+
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-container-wrapper {
+  background: url("./img/black_bg.png");
+  color: var(--main-red);
+  font-weight: 600;
+  src: url(https://fonts.gstatic.com/s/lora/v35/0QIhMX1D_JOuMw_LIftL.woff2) format('woff2');
+}
+.main-container {
+  display: block;
+  width: 100% !important;
+  margin-top: 0;
+  max-width: 1140px;
+}
+
+
+.main-header {
+  position: relative;
+  height: 15vw;
+  background: url("./img/header-bg.png") center top fixed;
+  background-repeat: repeat;
+  background-color: black;
+}
+
+.main-header .golden-border {
+  background: var(--golden-gradient);
+  display: block !important;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  max-width: 100%;
+  height: 10px;
+  position: absolute;
+  bottom: 0;
+}
+
+.intro {
+  max-height: 250px;
+  margin: 0;
+  padding: 10px 0;
+  background: url('./img/leather.png') left top;
+}
+
+.intro img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.navbar {
+  justify-content: center !important;
+  flex-flow: row nowrap;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: .5rem 1rem;
+  margin-bottom: 36px;
+  color: var(--main-gold);
+  background: var(--golden-gradient);
+}
+
+.nav-item {
+  color: var(--main-gold);
+  text-align: center;
+  border: 0;
+  background-color: #ffffff2e;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  color: var(--main-red);
+  border: 1px solid transparent;
+  border-color: var(--main-red);
+  font-weight: 600;
+  height: 100%;
+  border-radius: 0;
+  display: inline-block;
+  text-align: center;
+  white-space: nowrap;
+  user-select: none;
+
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.btn img {
+  width: 24px;
+  height: 24px;
+  vertical-align: middle;
+  border-style: none;
+  border: 0px
+}
+
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.section {
+  margin-bottom: 36px;
+  background-color: var(--main-gray);
+  border: 3px solid var(--main-red);
+  color: var(--main-red);
+}
+
+.section-header {
+  background: var(--main-red);
+  padding: 15px;
+  font-size: 2rem;
+  margin-bottom: .5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  margin-top: 0;
+}
+
+.section-header h2 {
+  background: var(--main-red);
+}
+
+.section-header h2 span {
+  color: var(--main-gold);
+  background: var(--golden-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
+
+.section-content {
+  padding: 15px;
+}
+
+
+.tipmenu {
+    background-color: transparent;
+}
+.tipmenu .tipmenu_price {
+    width: 20%;
+    display: inline-block;
+    /* text-align: center; */
+}
+.tipmenu .tipmenu_price img {
+    width: 17px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.tipmenu .tipmenu-list li  {
+    margin: 15px 0;
+}
+.tipmenu .tipmenu-list li.highlight  {
+    font-size: 18px;
+    font-weight: bold;
+}
+.tipmenu .tipmenu-list li a {
+    border: 2px solid var(--main-gold);
+    color: var(--main-gold);
+    padding: 5px 10px;
+    padding-left: 0;
+}
+
+.tipmenu img.wheel,
+.tipmenu img.coins {
+    height: 70px;
+    margin-right: 10px;
+}
+.tipmenu .wheel-list-items li {
+    margin-left: 68px;
+    margin-bottom: 5px;
+}
+.tipmenu .wheel-list li:before {
+    content: "";
+    width: 17px;
+    height: 16px;
+    /* fontawesome star svg */
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1NzYgNTEyIj48IS0tIUZvbnQgQXdlc29tZSBGcmVlIDYuNS4yIGJ5IEBmb250YXdlc29tZSAtIGh0dHBzOi8vZm9udGF3ZXNvbWUuY29tIExpY2Vuc2UgLSBodHRwczovL2ZvbnRhd2Vzb21lLmNvbS9saWNlbnNlL2ZyZWUgQ29weXJpZ2h0IDIwMjQgRm9udGljb25zLCBJbmMuLS0+PHBhdGggZmlsbD0iI0QxQjQ2NCIgZD0iTTMxNi45IDE4QzMxMS42IDcgMzAwLjQgMCAyODguMSAwcy0yMy40IDctMjguOCAxOEwxOTUgMTUwLjMgNTEuNCAxNzEuNWMtMTIgMS44LTIyIDEwLjItMjUuNyAyMS43cy0uNyAyNC4yIDcuOSAzMi43TDEzNy44IDMyOSAxMTMuMiA0NzQuN2MtMiAxMiAzIDI0LjIgMTIuOSAzMS4zczIzIDggMzMuOCAyLjNsMTI4LjMtNjguNSAxMjguMyA2OC41YzEwLjggNS43IDIzLjkgNC45IDMzLjgtMi4zczE0LjktMTkuMyAxMi45LTMxLjNMNDM4LjUgMzI5IDU0Mi43IDIyNS45YzguNi04LjUgMTEuNy0yMS4yIDcuOS0zMi43cy0xMy43LTE5LjktMjUuNy0yMS43TDM4MS4yIDE1MC4zIDMxNi45IDE4eiIvPjwvc3ZnPg==");
+    background-size: cover;
+    display: inline-block;
+    margin: 0 5px;
+}
